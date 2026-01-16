@@ -1,4 +1,6 @@
-# Project Title: Smart City Parking Management System(On the process)
+# Project Title: Smart City Parking Management System
+
+This project is currently **in progress** and not yet completed.
 
 # Technology Used:
 - MySQL (Database)

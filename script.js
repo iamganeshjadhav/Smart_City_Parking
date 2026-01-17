@@ -22,3 +22,26 @@ function addEntry() {
 
      displayData();
 }
+
+function displayData() { 
+
+    const tableBody = document.getElementById("parkingData");
+
+    tableBody.innerHTML = "";
+
+    
+    parkingList.forEach(v => {      
+
+        const row = `
+            <tr>
+                <td>${v.number}</td>
+                <td>${v.type}</td>
+                <td>${v.zone}</td>
+                <td>${v.time}</td>
+            </tr>
+        `;
+
+        tableBody.innerHTML += row;
+
+    });      
+}

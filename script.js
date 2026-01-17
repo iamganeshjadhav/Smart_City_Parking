@@ -19,4 +19,6 @@ function addEntry() {
     };  
 
     parkingList.push(entry);
+
+     displayData();
 }

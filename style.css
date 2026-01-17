@@ -38,3 +38,7 @@ button {
     cursor: pointer;
     border-radius: 5px;
 }
+
+button:hover {
+    background-color: #2980b9;
+}
